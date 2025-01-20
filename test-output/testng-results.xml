@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="0" failed="8" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-20T13:05:05 IST" name="Suite" finished-at="2025-01-20T13:05:15 IST" duration-ms="10043">
+    <groups>
+      <group name="PL1">
+        <method signature="RestAssured_TestCases_PL1.getAllDepartmentsTest()[pri:1, instance:testcases.RestAssured_TestCases_PL1@7cbc3762]" name="getAllDepartmentsTest" class="testcases.RestAssured_TestCases_PL1"/>
+        <method signature="RestAssured_TestCases_PL1.getAllItemsTest()[pri:2, instance:testcases.RestAssured_TestCases_PL1@7cbc3762]" name="getAllItemsTest" class="testcases.RestAssured_TestCases_PL1"/>
+        <method signature="RestAssured_TestCases_PL1.getIncentiveSummary()[pri:3, instance:testcases.RestAssured_TestCases_PL1@7cbc3762]" name="getIncentiveSummary" class="testcases.RestAssured_TestCases_PL1"/>
+        <method signature="RestAssured_TestCases_PL1.getIncentiveReffSummary()[pri:4, instance:testcases.RestAssured_TestCases_PL1@7cbc3762]" name="getIncentiveReffSummary" class="testcases.RestAssured_TestCases_PL1"/>
+        <method signature="RestAssured_TestCases_PL1.getHospitalIncomeIncReport()[pri:5, instance:testcases.RestAssured_TestCases_PL1@7cbc3762]" name="getHospitalIncomeIncReport" class="testcases.RestAssured_TestCases_PL1"/>
+        <method signature="RestAssured_TestCases_PL1.getIncenEmpBillItems()[pri:6, instance:testcases.RestAssured_TestCases_PL1@7cbc3762]" name="getIncenEmpBillItems" class="testcases.RestAssured_TestCases_PL1"/>
+        <method signature="RestAssured_TestCases_PL1.getInventoryFiscalYears()[pri:7, instance:testcases.RestAssured_TestCases_PL1@7cbc3762]" name="getInventoryFiscalYears" class="testcases.RestAssured_TestCases_PL1"/>
+        <method signature="RestAssured_TestCases_PL1.activateInventory()[pri:8, instance:testcases.RestAssured_TestCases_PL1@7cbc3762]" name="activateInventory" class="testcases.RestAssured_TestCases_PL1"/>
+      </group> <!-- PL1 -->
+    </groups>
+    <test started-at="2025-01-20T13:05:05 IST" name="Test" finished-at="2025-01-20T13:05:15 IST" duration-ms="10043">
+      <class name="testcases.RestAssured_TestCases_PL1">
+        <test-method signature="getAllDepartmentsTest()[pri:1, instance:testcases.RestAssured_TestCases_PL1@7cbc3762]" started-at="2025-01-20T13:05:05 IST" name="getAllDepartmentsTest" description="1. Send a GET request to Get All Departments
+2. Validate that all the DepartmentId and DepartmentName are not null.
+3. Verify the response status code is 200." finished-at="2025-01-20T13:05:06 IST" duration-ms="317" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[getAllDepartments must be implemented using Rest Assured methods only. expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: getAllDepartments must be implemented using Rest Assured methods only. expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at testcases.RestAssured_TestCases_PL1.getAllDepartmentsTest(RestAssured_TestCases_PL1.java:39)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllDepartmentsTest -->
+        <test-method signature="getAllItemsTest()[pri:2, instance:testcases.RestAssured_TestCases_PL1@7cbc3762]" started-at="2025-01-20T13:05:09 IST" name="getAllItemsTest" description="1. Send a GET request to Get All Items
+2. Validate that the Item Id and Item name are not null.
+3. Verify the response status code is 200." finished-at="2025-01-20T13:05:09 IST" duration-ms="11" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[getAllItems must be implemented using Rest Assured methods only. expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: getAllItems must be implemented using Rest Assured methods only. expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at testcases.RestAssured_TestCases_PL1.getAllItemsTest(RestAssured_TestCases_PL1.java:85)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllItemsTest -->
+        <test-method signature="getIncentiveSummary()[pri:3, instance:testcases.RestAssured_TestCases_PL1@7cbc3762]" started-at="2025-01-20T13:05:09 IST" name="getIncentiveSummary" description="1. Send a GET request to Incentive Summary Report
+2. Validate that the Prescriber Id and Prescriber name are not null.
+3. Verify the response status code is 200." finished-at="2025-01-20T13:05:14 IST" duration-ms="4939" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Status code should be 200 OK. expected [200] but found [0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Status code should be 200 OK. expected [200] but found [0]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1419)
+at org.testng.Assert.assertEquals(Assert.java:1383)
+at testcases.RestAssured_TestCases_PL1.getIncentiveSummary(RestAssured_TestCases_PL1.java:137)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getIncentiveSummary -->
+        <test-method signature="getIncentiveReffSummary()[pri:4, instance:testcases.RestAssured_TestCases_PL1@7cbc3762]" started-at="2025-01-20T13:05:14 IST" name="getIncentiveReffSummary" description="1. Send a GET request to Incentive Referral Summary Report
+2. Validate that the Prescriber name, PrescriberId, DocTotalAmount, TDSAmount and NetPayableAmount are not null.
+3. Verify the response status code is 200." finished-at="2025-01-20T13:05:14 IST" duration-ms="146" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[getIncentiveReffSummary must be implemented using Rest Assured methods only. expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: getIncentiveReffSummary must be implemented using Rest Assured methods only. expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at testcases.RestAssured_TestCases_PL1.getIncentiveReffSummary(RestAssured_TestCases_PL1.java:174)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getIncentiveReffSummary -->
+        <test-method signature="getHospitalIncomeIncReport()[pri:5, instance:testcases.RestAssured_TestCases_PL1@7cbc3762]" started-at="2025-01-20T13:05:14 IST" name="getHospitalIncomeIncReport" description="1. Send a GET request to Hospital Income Incentive Report
+2. Validate that the ServiceDepartmentName, ServiceDepartmentId, NetSales, ReferralCommission, GrossIncome, OtherIncentive, and HospitalNetIncome are not null.
+3. Verify the response status code is 200." finished-at="2025-01-20T13:05:14 IST" duration-ms="230" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[getHospIncIncReport must be implemented using Rest Assured methods only. expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: getHospIncIncReport must be implemented using Rest Assured methods only. expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at testcases.RestAssured_TestCases_PL1.getHospitalIncomeIncReport(RestAssured_TestCases_PL1.java:247)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getHospitalIncomeIncReport -->
+        <test-method signature="getIncenEmpBillItems()[pri:6, instance:testcases.RestAssured_TestCases_PL1@7cbc3762]" started-at="2025-01-20T13:05:14 IST" name="getIncenEmpBillItems" description="1. Send a GET request to Incentive Employee Bill Items
+2. Validate that the EmployeeIncentiveInfoId, EmployeeId, FullName, TDSPercent, EmpTDSPercent, IsActive are not null.
+3. Verify the response status code is 200." finished-at="2025-01-20T13:05:15 IST" duration-ms="99" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[getIncenEmpBillItems must be implemented using Rest Assured methods only. expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: getIncenEmpBillItems must be implemented using Rest Assured methods only. expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at testcases.RestAssured_TestCases_PL1.getIncenEmpBillItems(RestAssured_TestCases_PL1.java:341)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getIncenEmpBillItems -->
+        <test-method signature="getInventoryFiscalYears()[pri:7, instance:testcases.RestAssured_TestCases_PL1@7cbc3762]" started-at="2025-01-20T13:05:15 IST" name="getInventoryFiscalYears" description="1. Send a GET request to Inventory Fiscal Years
+2. Validate that the FiscalYearId, FiscalYearName are not null.
+3. Verify the response status code is 200." finished-at="2025-01-20T13:05:15 IST" duration-ms="12" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[getInvntryFiscalYrs must be implemented using Rest Assured methods only. expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: getInvntryFiscalYrs must be implemented using Rest Assured methods only. expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at testcases.RestAssured_TestCases_PL1.getInventoryFiscalYears(RestAssured_TestCases_PL1.java:402)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInventoryFiscalYears -->
+        <test-method signature="activateInventory()[pri:8, instance:testcases.RestAssured_TestCases_PL1@7cbc3762]" started-at="2025-01-20T13:05:15 IST" name="activateInventory" description="1. Send a GET request to Activate Inventory
+2. Validate that the StoreId, Name, and StoreDescription are not null.
+3. Verify the response status code is 200." finished-at="2025-01-20T13:05:15 IST" duration-ms="7" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[getActInventory must be implemented using Rest Assured methods only. expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: getActInventory must be implemented using Rest Assured methods only. expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at testcases.RestAssured_TestCases_PL1.activateInventory(RestAssured_TestCases_PL1.java:452)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- activateInventory -->
+      </class> <!-- testcases.RestAssured_TestCases_PL1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
