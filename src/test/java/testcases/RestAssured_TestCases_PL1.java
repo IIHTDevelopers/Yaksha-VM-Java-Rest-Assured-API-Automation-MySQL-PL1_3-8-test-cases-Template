@@ -394,7 +394,7 @@ public class RestAssured_TestCases_PL1 {
 		apiUtil = new ApiUtil();
 
 		// Fetch the response from the API
-		CustomResponse customResponse = apiUtil.getInvntryFiscalYrs("/Inventory/InventoryFiscalYears", null);
+		CustomResponse customResponse = apiUtil.getInventoryFiscalYrs("/Inventory/InventoryFiscalYears", null);
 
 		// Validate the implementation of getInvntryFiscalYrs
 		boolean isValidationSuccessful = TestCodeValidator.validateTestMethodFromFile(FILEPATH, "getInvntryFiscalYrs",
