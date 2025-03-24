@@ -170,7 +170,7 @@ public class ApiUtil {
 	 * @return CustomResponse - Contains response, statusCode, status, fiscalYearIds, fiscalYearNames, startDates, endDates and 
 				isActiveList.
 	 */
-	public CustomResponse getInvntryFiscalYrs(String endpoint, Object body) {
+	public CustomResponse getInventoryFiscalYrs(String endpoint, Object body) {
 		// write your code here
 
 		Response response = null;
