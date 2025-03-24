@@ -17,9 +17,7 @@ public class ApiUtil {
 	 * 
 	 * @param endpoint - The API endpoint to which the GET request is sent.
 	 * @param body     - Optional request body
-	 * @return CustomResponse - The API response includes HTTP status code, status
-	 *         message, and a list of departments in the "Results" field, containing
-	 *         details such as DepartmentId and DepartmentName.
+	 * @return CustomResponse - Contains response, statusCode, status, departmentIds and departmentNames.
 	 */
 	public CustomResponse getAllDepartments(String endpoint, Object body) {
 		// write your code here
@@ -39,9 +37,7 @@ public class ApiUtil {
 	 * 
 	 * @param endpoint - The API endpoint to which the GET request is sent.
 	 * @param body     - Optional request body
-	 * @return CustomResponse - The API response includes HTTP status code, status
-	 *         message, and a list of items in the "Results" field, containing
-	 *         details such as ItemId and ItemName.
+	 * @return CustomResponse - Contains response, statusCode, status, itemIds and itemNames.
 	 */
 	public CustomResponse getAllItems(String endpoint, Object body) {
 		// write your code here
@@ -61,12 +57,8 @@ public class ApiUtil {
 	 * 
 	 * @param URL  - The API endpoint to which the GET request is sent.
 	 * @param body - Optional request body
-	 * @return CustomResponse - The API response includes HTTP status code, status
-	 *         message, and a list of incentive summary details in the "JsonData"
-	 *         field, containing details such as PrescriberName, PrescriberId,
-	 *         DocTotalAmount, TDSAmount, and NetPayableAmount.
-	 * @throws JsonProcessingException
-	 * @throws JsonMappingException
+	 * @return CustomResponse - Contains response, statusCode, status, prescriberIds, prescriberNames, docTotalAmounts,
+				tdsAmounts and netPayableAmounts.
 	 */
 	public CustomResponse getIncentiveSummaryReport(String URL, Object body) {
 		// write your code here
@@ -91,10 +83,8 @@ public class ApiUtil {
 	 * 
 	 * @param URL  - The API endpoint to which the GET request is sent.
 	 * @param body - Optional request body
-	 * @return CustomResponse - The API response includes HTTP status code, status
-	 *         message, and a list of incentive referral summary details in the
-	 *         "JsonData" field, containing details such as PrescriberName,
-	 *         PrescriberId, DocTotalAmount, TDSAmount, and NetPayableAmount.
+	 * @return CustomResponse - Contains response, statusCode, status, prescriberNames, prescriberIds, docTotalAmounts,
+				tdsAmounts and netPayableAmounts.
 	 */
 	public CustomResponse getIncReffSummReport(String URL, Object body) {
 		// write your code here
@@ -120,10 +110,8 @@ public class ApiUtil {
 	 *                 report.
 	 * @param body     - Optional request body
 	 *
-	 * @return CustomResponse - The API response includes the HTTP status code,
-	 *         status message, and details such as ServiceDepartmentId,
-	 *         ServiceDepartmentName, NetSales, ReferralCommission, GrossIncome,
-	 *         OtherIncentive, and HospitalNetIncome in the "Results" field.
+	 * @return CustomResponse - Contains response, statusCode, status, serviceDepartmentIds, serviceDepartmentNames, netSales,
+				referralCommissions, grossIncomes, otherIncentives and hospitalNetIncomes.
 	 */
 	public CustomResponse getHospIncIncReport(String endpoint, Object body) {
 		// write your code here
@@ -151,10 +139,8 @@ public class ApiUtil {
 	 * @param endpoint - The API endpoint for fetching employee bill items.
 	 * @param body     - Optional request body
 	 *
-	 * @return CustomResponse - The API response includes the HTTP status code,
-	 *         status message, and details such as EmployeeIncentiveInfoId,
-	 *         EmployeeId, FullName, TDSPercent, EmpTDSPercent, IsActive, and
-	 *         EmployeeBillItemsMap in the "Results" field.
+	 * @return CustomResponse - Contains response, statusCode, status, employeeIncentiveInfoId, employeeId, fullName,
+				tdsPercent, empTdsPercent, isActive and employeeBillItemsMap.
 	 */
 	public CustomResponse getEmpBillItem(String endpoint, Object body) {
 		// write your code here
@@ -181,9 +167,8 @@ public class ApiUtil {
 	 * @param endpoint - The API endpoint for retrieving inventory fiscal years.
 	 * @param body     - Optional request body
 	 *
-	 * @return CustomResponse - The API response includes the HTTP status code,
-	 *         status message, and details such as FiscalYearId, FiscalYearName,
-	 *         StartDate, EndDate, and IsActive in the "Results" field.
+	 * @return CustomResponse - Contains response, statusCode, status, fiscalYearIds, fiscalYearNames, startDates, endDates and 
+				isActiveList.
 	 */
 	public CustomResponse getInvntryFiscalYrs(String endpoint, Object body) {
 		// write your code here
@@ -209,8 +194,7 @@ public class ApiUtil {
 	 * @param endpoint - The API endpoint for activating inventory.
 	 * @param body     - Optional request body
 	 *
-	 * @return CustomResponse - The API response includes the HTTP status code,
-	 *         status message, and a list of stores in the "Results" field.
+	 * @return CustomResponse - Contains response, statusCode, status, storeIds, names and storeDescriptions.
 	 */
 	public CustomResponse getActInventory(String endpoint, Object body) {
 		// write your code here
