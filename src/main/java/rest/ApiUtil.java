@@ -16,7 +16,7 @@ public class ApiUtil {
 	 * @Test1 This method retrieves and verifies the list of departments.
 	 * 
 	 * @param endpoint - The API endpoint to which the GET request is sent.
-	 * @param body     - Optional
+	 * @param body     - Optional request body
 	 * @return CustomResponse - The API response includes HTTP status code, status
 	 *         message, and a list of departments in the "Results" field, containing
 	 *         details such as DepartmentId and DepartmentName.
@@ -38,7 +38,7 @@ public class ApiUtil {
 	 * @Test2 This method retrieves and verifies the list of items.
 	 * 
 	 * @param endpoint - The API endpoint to which the GET request is sent.
-	 * @param body     - Optional
+	 * @param body     - Optional request body
 	 * @return CustomResponse - The API response includes HTTP status code, status
 	 *         message, and a list of items in the "Results" field, containing
 	 *         details such as ItemId and ItemName.
@@ -60,7 +60,7 @@ public class ApiUtil {
 	 * @Test3 This method retrieves and verifies the incentive summary report.
 	 * 
 	 * @param URL  - The API endpoint to which the GET request is sent.
-	 * @param body - Optional
+	 * @param body - Optional request body
 	 * @return CustomResponse - The API response includes HTTP status code, status
 	 *         message, and a list of incentive summary details in the "JsonData"
 	 *         field, containing details such as PrescriberName, PrescriberId,
@@ -90,7 +90,7 @@ public class ApiUtil {
 	 *        report.
 	 * 
 	 * @param URL  - The API endpoint to which the GET request is sent.
-	 * @param body - Optional
+	 * @param body - Optional request body
 	 * @return CustomResponse - The API response includes HTTP status code, status
 	 *         message, and a list of incentive referral summary details in the
 	 *         "JsonData" field, containing details such as PrescriberName,
@@ -123,7 +123,7 @@ public class ApiUtil {
 	 *
 	 * @param endpoint - The API endpoint for fetching the hospital income incentive
 	 *                 report.
-	 * @param body     - Optional request body (null in this case).
+	 * @param body     - Optional request body
 	 *
 	 * @return CustomResponse - The API response includes the HTTP status code,
 	 *         status message, and details such as ServiceDepartmentId,
@@ -157,7 +157,7 @@ public class ApiUtil {
 	 *        EmployeeBillItemsMap for validation.
 	 *
 	 * @param endpoint - The API endpoint for fetching employee bill items.
-	 * @param body     - Optional request body (null in this case).
+	 * @param body     - Optional request body
 	 *
 	 * @return CustomResponse - The API response includes the HTTP status code,
 	 *         status message, and details such as EmployeeIncentiveInfoId,
@@ -189,7 +189,7 @@ public class ApiUtil {
 	 *        date, and active status for each fiscal year.
 	 *
 	 * @param endpoint - The API endpoint for retrieving inventory fiscal years.
-	 * @param body     - Optional request body (null in this case).
+	 * @param body     - Optional request body
 	 *
 	 * @return CustomResponse - The API response includes the HTTP status code,
 	 *         status message, and details such as FiscalYearId, FiscalYearName,
@@ -218,7 +218,7 @@ public class ApiUtil {
 	 *        name, and description.
 	 *
 	 * @param endpoint - The API endpoint for activating inventory.
-	 * @param body     - Optional request body (null in this case).
+	 * @param body     - Optional request body
 	 *
 	 * @return CustomResponse - The API response includes the HTTP status code,
 	 *         status message, and a list of stores in the "Results" field.
