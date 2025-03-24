@@ -114,12 +114,7 @@ public class ApiUtil {
 	}
 
 	/**
-	 * @Test5 This method fetches the hospital income incentive report for a
-	 *        specified date range and service department from the API. It validates
-	 *        the response status code, checks the "Status" field, and extracts
-	 *        fields such as ServiceDepartmentId, ServiceDepartmentName, NetSales,
-	 *        ReferralCommission, GrossIncome, OtherIncentive, and HospitalNetIncome
-	 *        from the "Results" array.
+	 * @Test5 This method fetches the hospital income incentive report.
 	 *
 	 * @param endpoint - The API endpoint for fetching the hospital income incentive
 	 *                 report.
@@ -151,10 +146,7 @@ public class ApiUtil {
 
 	/**
 	 * @Test6 This method fetches employee bill items for a specific employee from
-	 *        the API. It validates the response status, checks the "Status" field,
-	 *        and extracts fields like EmployeeIncentiveInfoId, EmployeeId,
-	 *        FullName, TDSPercent, EmpTDSPercent, IsActive, and
-	 *        EmployeeBillItemsMap for validation.
+	 *        the API.
 	 *
 	 * @param endpoint - The API endpoint for fetching employee bill items.
 	 * @param body     - Optional request body
@@ -184,9 +176,7 @@ public class ApiUtil {
 	}
 
 	/**
-	 * @Test7 This method fetches inventory fiscal years from the API and validates
-	 *        various fields. It checks the fiscal year ID, name, start date, end
-	 *        date, and active status for each fiscal year.
+	 * @Test7 This method fetches inventory fiscal years from the API.
 	 *
 	 * @param endpoint - The API endpoint for retrieving inventory fiscal years.
 	 * @param body     - Optional request body
@@ -214,8 +204,7 @@ public class ApiUtil {
 
 	/**
 	 * @Test8 This method activates inventory by retrieving store information from
-	 *        the API. It fetches a list of stores and validates each store's ID,
-	 *        name, and description.
+	 *        the API.
 	 *
 	 * @param endpoint - The API endpoint for activating inventory.
 	 * @param body     - Optional request body
