@@ -397,7 +397,7 @@ public class RestAssured_TestCases_PL1 {
 		CustomResponse customResponse = apiUtil.getInventoryFiscalYrs("/Inventory/InventoryFiscalYears", null);
 
 		// Validate the implementation of getInvntryFiscalYrs
-		boolean isValidationSuccessful = TestCodeValidator.validateTestMethodFromFile(FILEPATH, "getInvntryFiscalYrs",
+		boolean isValidationSuccessful = TestCodeValidator.validateTestMethodFromFile(FILEPATH, "getInventoryFiscalYrs",
 				List.of("given", "then", "extract", "response"));
 		Assert.assertTrue(isValidationSuccessful,
 				"getInvntryFiscalYrs must be implemented using Rest Assured methods only.");
